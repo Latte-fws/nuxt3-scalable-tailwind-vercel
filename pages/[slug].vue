@@ -45,7 +45,7 @@
         </div>
 
         <!-- Blog Content -->
-         <div class="blog__content" v-html="post.content.rendered"</div>
+         <div class="blog__content" v-html="post.content.rendered"></div>
     </div>
 
     <div v-if="pending">
